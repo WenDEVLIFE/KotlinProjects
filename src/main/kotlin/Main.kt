@@ -1,8 +1,12 @@
 package org.example
 
+import java.util.Scanner
+
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 fun main() {
+
+    val scanner = Scanner(System.`in`)
 
     val name = "Wen"
     val number = 42
@@ -19,6 +23,8 @@ fun main() {
     val number3 : Double = number2.toDouble()
     val chardata: Char = 'B'
     val toString: String = chardata.toString()
+
+    val message1 = scanner.nextLine()
 
 
     //  Display the message
